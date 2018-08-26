@@ -32,6 +32,7 @@ npm start
 
 **For More Information about this Vulnerability **
 Full write up on the [Contrast Security blog](https://www.contrastsecurity.com/security-influencers/cve-2018-15685) or the write up on the offical blog from [Electron](https://electronjs.org/blog/web-preferences-fix)
+
 **Credits to**
 #### [Matt Austin](https://github.com/matt-) for the original POC
 
