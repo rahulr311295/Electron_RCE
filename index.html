@@ -1,0 +1,43 @@
+    <!DOCTYPE html>
+    <html>
+     
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#btn').click(function() {
+     
+                    var link = $("<a>");
+                    link.attr("href", "http://localhost/exploit.html");
+                    link.attr("title", "Friendly message");
+                    link.text("Hello");
+                    link.addClass("link");
+     
+                    $(".box").html(link);
+                });
+            });
+        </script>
+    </head>
+     
+    <style>
+        p {
+            margin: 10px;
+            font-weight: bold;
+        }
+        
+        .link {
+            color: red;
+            font-size: 25px;
+            font-weight: bold;
+            text-decoration-style: solid;
+            margin: 10px;
+        }
+    </style>
+     
+    <body>
+        <h1>Click the HYPERLINK below</h1>
+        <div class="box" id="box"></div>
+        <p><input type="button" id="btn" value="Create Link"></p>
+    </body>
+     
+    </html>
