@@ -36,7 +36,7 @@ window.open().open('data:text/html,Code Execution <br><pre>Exploited: <pre><scri
 
 # Which Executes Calculator and shows which user is currently logged in
 ```
-![Windows](https://media.giphy.com/media/jnRVmVJQ0oIpJ7JdbZ/giphy.gif)
+![Windows](https://media.giphy.com/media/7OWdOErn5tFn2F1LKW/giphy.gif)
     
 ### Linux
 ```
@@ -54,10 +54,9 @@ window.open().open('data:text/html,Code Execution <br><pre>Exploited: <pre><scri
 
 # Which Executes Calculator and lists files in the directory
 ```
-![Linux](https://media.giphy.com/media/48M4iTS1Ue0IU8jetT/giphy.gif)
+![Linux](https://media.giphy.com/media/XIhhk0xiXlkK1Roqux/giphy.gif)
 **For More Information about this Vulnerability **
 Full write up on the [Contrast Security blog](https://www.contrastsecurity.com/security-influencers/cve-2018-15685) or the write up on the offical blog from [Electron](https://electronjs.org/blog/web-preferences-fix)
 
 **Credits to**
 #### [Matt Austin](https://github.com/matt-) for the original POC
-
