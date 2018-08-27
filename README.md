@@ -57,6 +57,7 @@ window.open().open('data:text/html,Code Execution <br><pre>Exploited: <pre><scri
 ![Linux](https://media.giphy.com/media/XIhhk0xiXlkK1Roqux/giphy.gif)
 
 **For More Information about this Vulnerability **
+
 Full write up on the [Contrast Security blog](https://www.contrastsecurity.com/security-influencers/cve-2018-15685) or the write up on the offical blog from [Electron](https://electronjs.org/blog/web-preferences-fix)
 
 **Credits to**
